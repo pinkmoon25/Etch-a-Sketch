@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Ubuntu&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Ubuntu, serif;
+}
+
+h1{
+  margin:0 0 15px 0;
+  padding: 20px;
+  background-color: blueviolet;
+  border-radius: 0 0 5px 5px;
+  color: floralwhite;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  width: 550px;
+  height: 550px;
+  margin: 50px auto;
+  border: 0.5px solid black;
+}
+
+.innerdiv{
+  border: none;
+  border-radius: 50%;
+  margin:0; 
+  padding: 0; 
+  box-sizing: border-box;
+} 
