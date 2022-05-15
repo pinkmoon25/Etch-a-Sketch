@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <title>Etch A Sketch</title>
+    <title>Etch a Sketch</title>
   </head>
   <body>
     <h1>Etch Your Sketch</h1>
     <main>
-      <label for="gridLayout">Grid Size: 
-        <input type="range" id="gridLayout" name="gridLayout" min="2" max="64" value="24">
-      </label>
-      <p class="gridsize" style="margin-top:0"></p>
-      <label for="colorpicker">Color Picker:
-        <input type="color" id="colorpicker" name="colorpicker" value="#02f506">
-      </label>
-      <div class="container">
+      <section class="settings">
+        <label for="gridLayout">Grid Size: 
+          <input type="range" id="gridLayout" name="gridLayout" min="2" max="64" value="24">
+          <p class="gridsize"></p>
+        </label>
         
+        <label for="colorpicker">Color picker:
+          <input type="color" id="colorpicker" name="colorpicker" value="#ffffff">
+        </label>
+        <button class="rainbow">rainbow</button>
+        <button class="circle"> circle grids </button>
+        <button class="toggle"> Toggle gridLines</button>
+        <button class="eraser"> Eraser </button>
+      </section>
+      <div class="container">
       </div>
     </main>
   </body>

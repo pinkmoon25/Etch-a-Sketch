@@ -7,31 +7,71 @@ body{
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  font-size: larger;
   font-family: Ubuntu, serif;
+  font-weight: bold;
+  background-color: black;
+  color: floralwhite;
 }
 
 h1{
-  margin:0 0 15px 0;
-  padding: 20px;
+  margin:0;
+  padding: 15px;
   background-color: blueviolet;
   border-radius: 0 0 5px 5px;
   color: floralwhite;
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container{
+  width: 550px;
+  height: 550px;
+  margin: 25px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
-  width: 550px;
-  height: 550px;
-  margin: 50px auto;
-  border: 0.5px solid black;
+  border: 25px solid rgb(39, 39, 39);
+}
+
+.settings{
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 15px;
+}
+
+.gridsize{
+  margin-top: 0;
+  font-size: smaller;
+}
+
+button{
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background-color: rgb(135, 206, 235, 0.8);
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+  transition: transform 0.25s ease;
+}
+
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .innerdiv{
-  border: none;
-  border-radius: 50%;
+  border: 1px solid grey;
   margin:0; 
   padding: 0; 
   box-sizing: border-box;
 } 
+
