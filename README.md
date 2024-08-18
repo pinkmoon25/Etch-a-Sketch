@@ -1,14 +1,17 @@
-# Etch-a-Sketch
+### Etch-a-Sketch 🎨
 
-Etch-a-sketch, brower version of a sketchpad, where you can sketch with multiple grid and color options.
+A browser-based sketchpad inspired by the classic Etch-a-Sketch toy. This web application allows users to create drawings using a grid system with multiple grid sizes and color options, showcasing advanced DOM manipulation skills.
 
-# Project Name : Etch A Sketch ♻️
+### Features:
+- **Dynamic Grids:** Create and adjust sketch grids of various sizes.
+- **Color Options:** Choose from a palette of colors for your sketches.
+- **Interactive Drawing:** Draw on the grid with real-time updates.
 
-## Built With
+### Built With:
+- **Languages:** HTML, CSS, JavaScript
+- **Techniques:** DOM Manipulation
 
-- HTML 
-- CSS
-- Javascript
+---
 
 ## Live Demo link
 
